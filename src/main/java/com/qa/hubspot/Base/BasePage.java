@@ -38,7 +38,9 @@ public class BasePage {
 	    	flash = prop.getProperty("elementflash");
 	    	
 	    	if(browser.equalsIgnoreCase("chrome")){
-	    		WebDriverManager.chromedriver().setup();
+	    		//WebDriverManager.chromedriver().setup();
+	    		
+	    		System.setProperty("webdriver.chrome.driver", "C:\\Users\\venka\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	    		if(headless.equalsIgnoreCase("yes")){
 	    			ChromeOptions co = new ChromeOptions();
 	    			co.addArguments("--headless");

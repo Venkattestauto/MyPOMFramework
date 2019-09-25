@@ -1,25 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58327" started-at="2019-09-19T06:28:10Z" finished-at="2019-09-19T06:29:09Z">
+  <suite name="Default suite" duration-ms="142925" started-at="2019-09-23T18:16:59Z" finished-at="2019-09-23T18:19:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58327" started-at="2019-09-19T06:28:10Z" finished-at="2019-09-19T06:29:09Z">
-      <class name="com.qa.hubspot.tests.LoginPFTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.LoginPFTest@4b9e13df]" name="setup" is-config="true" duration-ms="46365" started-at="2019-09-19T11:58:10Z" finished-at="2019-09-19T11:58:57Z">
+    <test name="Default test" duration-ms="142925" started-at="2019-09-23T18:16:59Z" finished-at="2019-09-23T18:19:22Z">
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="setup" is-config="true" duration-ms="23895" started-at="2019-09-23T23:46:59Z" finished-at="2019-09-23T23:47:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.hubspot.tests.LoginPFTest@4b9e13df]" name="loginTest" duration-ms="8188" started-at="2019-09-19T11:58:57Z" finished-at="2019-09-19T11:59:05Z">
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="verifyContactsPageTitleTest" duration-ms="715" started-at="2019-09-23T23:47:23Z" finished-at="2019-09-23T23:47:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.LoginPFTest@4b9e13df]" name="teardown" is-config="true" duration-ms="3719" started-at="2019-09-19T11:59:05Z" finished-at="2019-09-19T11:59:09Z">
+        </test-method> <!-- verifyContactsPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="teardown" is-config="true" duration-ms="901" started-at="2019-09-23T23:47:23Z" finished-at="2019-09-23T23:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.qa.hubspot.tests.LoginPFTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="setup" is-config="true" duration-ms="17957" started-at="2019-09-23T23:47:25Z" finished-at="2019-09-23T23:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="createNewContactTest" duration-ms="8255" started-at="2019-09-23T23:47:43Z" data-provider="getContactData" finished-at="2019-09-23T23:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hemal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Eng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="teardown" is-config="true" duration-ms="1079" started-at="2019-09-23T23:47:51Z" finished-at="2019-09-23T23:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="setup" is-config="true" duration-ms="25360" started-at="2019-09-23T23:47:52Z" finished-at="2019-09-23T23:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="createNewContactTest" duration-ms="6236" started-at="2019-09-23T23:48:17Z" data-provider="getContactData" finished-at="2019-09-23T23:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="teardown" is-config="true" duration-ms="1167" started-at="2019-09-23T23:48:24Z" finished-at="2019-09-23T23:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="setup" is-config="true" duration-ms="17850" started-at="2019-09-23T23:48:25Z" finished-at="2019-09-23T23:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="createNewContactTest" duration-ms="7604" started-at="2019-09-23T23:48:43Z" data-provider="getContactData" finished-at="2019-09-23T23:48:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shalu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shalu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev Eng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="teardown" is-config="true" duration-ms="1720" started-at="2019-09-23T23:48:50Z" finished-at="2019-09-23T23:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="setup" is-config="true" duration-ms="22531" started-at="2019-09-23T23:48:52Z" finished-at="2019-09-23T23:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="createNewContactTest" duration-ms="5337" started-at="2019-09-23T23:49:15Z" data-provider="getContactData" finished-at="2019-09-23T23:49:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Irina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@91161c7]" name="teardown" is-config="true" duration-ms="1689" started-at="2019-09-23T23:49:20Z" finished-at="2019-09-23T23:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

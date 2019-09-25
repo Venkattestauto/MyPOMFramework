@@ -17,7 +17,7 @@ public class ContactsPage {
 
 	
 	   By createContactButton = By.xpath("//span[text()='Create contact']");
-	   By createContactFormButton  = By.xpath("//li//span[text()='Create contact']");
+	   By createContactFormButton  = By.xpath("//li//div[text()='Create contact']");
 	   By email = By.xpath("//input[@data-field ='email']");
 	   By firstName = By.xpath("//input[@data-field ='firstname']");
 	   By lastName = By.xpath("//input[@data-field ='lastname']");
@@ -34,13 +34,15 @@ public class ContactsPage {
 	
 	  //need to create By locator Contacts Page Header
 	   
-	   public void createNewContact(String  emailID,  String  FN,   String  LN,  String  jobTitleVal ) {
+	   public  void createNewContact(String  emailID,  String  FN,   String  LN,  String  jobTitleVal ) throws InterruptedException {
 		   
 		   elementUtil.doClick(createContactButton);
 		   elementUtil.doSendKeys(email, emailID);
 		   elementUtil.doSendKeys(firstName, FN);
 		   elementUtil.doSendKeys(lastName, LN);
+		   Thread.sleep(2000);
 		   elementUtil.doSendKeys(jobTitle,  jobTitleVal);
+		   Thread.sleep(2000);
 		  
 		   elementUtil.doClick(createContactFormButton);
 		   	   
